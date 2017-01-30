@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hackathing
-email: robbie.coomber@gmail.com
 description:
   Let’s get together to try to make things and/or make things that make things better for everyone!
   It's a co-operative event taking place over one day where we all get excited about what everyone is building, with a discussion at the beginning and demos at the end.
