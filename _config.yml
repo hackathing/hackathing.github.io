@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Hackathing
 description:
-  Let’s get together to try to make things and/or make things that make things better for everyone!
-  It's a co-operative event taking place over one day where we all get excited about what everyone is building, with a discussion at the beginning and demos at the end.
+  A better environment for making things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hackathing.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TODO
