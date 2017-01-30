@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hackathing.io
+title: Hackathing
 email: robbie.coomber@gmail.com
 description:
   Let’s get together to try to make things and/or make things that make things better for everyone!
