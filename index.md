@@ -23,14 +23,14 @@ difficult process
 
 It's all good. Just make a thing.
 
-10.30 - 11.00 Hackathing intro and welcome  
-11:00 - Ideas sharing and team assembling (with post-its)  
-11:30 - 13:00 Hacking things  
-13:00 - 14:00 Lunch (you can hack over/around/through lunch)  
-14:00 - 18:00 Hacking things  
-18:00 - 19:00 Round up of ideas/presentations, and next steps  
-19.00 - Celebration drink  
-20:00 - Definitely have left by now, maybe to a local pub, but the venue will be closed
+### Next Hackathing
+The next Hackathing will most likely be in March 2017, the exact date is TBD.
+
+### Previous Hackathings
+
+* 3rd December 2016
+* 8th October 2016
+* 26th June 2016
 
 ### Facilites
 
