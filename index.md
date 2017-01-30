@@ -32,7 +32,7 @@ It's all good. Just make a thing.
 19.00 - Celebration drink  
 20:00 - Definitely have left by now, maybe to a local pub, but the venue will be closed
 
-Facilities:
+### Facilites
 
 * Good wifi
 * Tables and sofas
@@ -48,7 +48,8 @@ Facilities:
 * Kitchens, toilets, shower
 * Smoking area
 
-What to bring:
+### What to bring
+
 * A jumper in case the warehouse gets chilly
 * Fuel drink (we have teas and coffees and diet coke but more is better)
 * Lunch foods (small contribution of food is fine or whole meal if you have special food needs)
