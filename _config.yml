@@ -18,8 +18,9 @@ description:
   A better environment for making things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hackathing.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TODO
+twitter_username: hackathing
 github_username:  hackathing
+email: hello@hackathing.io
 
 # Build settings
 theme: jekyll-theme-cayman
