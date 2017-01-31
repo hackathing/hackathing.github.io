@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
 <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    {% if site.github_username %}
+    <a href="https://www.github.com/{{ site.github_username }}" class="btn">
+        <i class="fa fa-github" aria-hidden="true"></i> {{ site.github_username }}
+    </a>
+    {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://www.twitter.com/{{ site.twitter_username }}" class="btn">
+        <i class="fa fa-twitter" aria-hidden="true"></i> {{ site.twitter_username }}
+    </a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}" class="btn">
+        <i class="fa fa-envelope" aria-hidden="true"></i> {{ site.email }}
+    </a>
+    {% endif %}
+
 </section>
 
 <section class="main-content">
     {{ content }}
-
-    <footer class="site-footer">
-        <span class="site-footer-owner">Visit us on GitHub: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-    </footer>
 </section>
 
 {% if site.google_analytics %}
