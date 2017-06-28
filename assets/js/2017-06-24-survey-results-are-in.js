@@ -16,6 +16,8 @@ function createPieChart(id, data, options) {
     var height = options.height || graphHeight;
     var pieRadius = options.pieRadius || "90%";
 
+    d3.selectAll('#' + id).style('text-align', 'center');
+
     return new d3pie(id, {
         "header": {
             "title": {
@@ -91,6 +93,7 @@ function createPieChart(id, data, options) {
 
 function createBarChart(id, data) {
     var svg = d3.select("#" + id)
+        .style('text-align', 'center')
         .append('svg')
         .attr("width", graphWidth)
         .attr("height", graphHeight);
@@ -134,6 +137,7 @@ function createBarChart(id, data) {
 
 function createSidewaysBarChart(id, data) {
     var svg = d3.select("#" + id)
+        .style('text-align', 'center')
         .append('svg')
         .attr("width", graphWidth)
         .attr("height", graphHeight);
@@ -231,7 +235,7 @@ createPieChart("graph_course_format", [
         "color": color06
     }
 ], {
-    pieRadius: "66%",
+    pieRadius: "75%",
     height: 250
 });
 
@@ -251,6 +255,78 @@ createPieChart("graph_session_format", [
         "value": 2,
         "color": color08
     }
+]);
+
+createBarChart("graph_under_represented_exclusive", [
+    {
+        "label": "Positive",
+        "value": 7,
+        "color": color02
+    },
+    {
+        "label": "Neutral",
+        "value": 26,
+        "color": color12
+    },
+    {
+        "label": "Negative",
+        "value": 2,
+        "color": color06
+    }
+]);
+
+createBarChart("graph_under_represented_somewhat", [
+    {
+        "label": "Positive",
+        "value": 25,
+        "color": color02
+    },
+    {
+        "label": "Neutral",
+        "value": 9,
+        "color": color12
+    },
+    {
+        "label": "Negative",
+        "value": 1,
+        "color": color06
+    }
+]);
+
+createBarChart("graph_under_represented_none", [
+    {
+        "label": "Positive",
+        "value": 1,
+        "color": color02
+    },
+    {
+        "label": "Neutral",
+        "value": 23,
+        "color": color12
+    },
+    {
+        "label": "Negative",
+        "value": 10,
+        "color": color06
+    }
+]);
+
+createPieChart("graph_under_represented_self_define", [
+    {
+        "label": "Yes",
+        "value": 16,
+        "color": color02
+    },
+    {
+        "label": "No",
+        "value": 18,
+        "color": color12
+    },
+    {
+        "label": "Other",
+        "value": 1,
+        "color": color08
+    }
 ], {
-    pieRadius: "90%"
+    pieRadius: "85%"
 });
