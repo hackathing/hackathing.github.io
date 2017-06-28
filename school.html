@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1>Hackathing School</h1>
+
+<p>Hackathing School is a new coding school in London. It is completely free to attend and run entirely by volunteers.</p>
+
+<p>As a project, this is in very early stages, but there is more information to come</p>
+
+{% if site.posts %}
+<h2>Blog</h2>
+<ul class="posts">
+    {% for post in site.posts %}
+    <li>
+        <span class="posts__date">{{ post.date | date: "%d %b, %Y" }}</span>
+        <a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
